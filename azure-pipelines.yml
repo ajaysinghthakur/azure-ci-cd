@@ -11,7 +11,7 @@ pool:
 
 variables:
   # TODO: Replace the service connection name
-  azureServiceConnectionId: 'flaskml'
+  azureServiceConnectionId: 'webapp'
   
   # TODO: Replace 'mywebapp193576' with the existing Web App name
   webAppName: 'ajay-flask-webapp'

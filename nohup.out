@@ -1,0 +1,97 @@
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.244.81.35:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 119-822-514
+/home/ajay/miniconda3/lib/python3.7/site-packages/sklearn/ensemble/gradient_boosting.py:34: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  from ._gradient_boosting import predict_stages
+/home/ajay/miniconda3/lib/python3.7/site-packages/sklearn/ensemble/gradient_boosting.py:34: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  from ._gradient_boosting import predict_stages
+[2022-11-08 15:57:18,836] INFO in app: JSON payload: %s json_payload
+[2022-11-08 15:57:18,840] INFO in app: inference payload DataFrame: %s inference_payload
+[2022-11-08 15:57:18,894] INFO in app: JSON payload: %s json_payload
+[2022-11-08 15:57:18,948] INFO in app: JSON payload: %s json_payload
+[2022-11-08 15:57:18,948] INFO in app: Scaling Payload: %s payload
+[2022-11-08 15:57:18,978] INFO in app: JSON payload: %s json_payload
+[2022-11-08 15:57:19,034] INFO in app: JSON payload: %s json_payload
+[2022-11-08 15:57:19,090] INFO in app: JSON payload: %s json_payload
+[2022-11-08 15:57:19,117] INFO in app: JSON payload: %s json_payload
+[2022-11-08 15:57:19,175] INFO in app: JSON payload: %s json_payload
+[2022-11-08 15:57:19,191] INFO in app: JSON payload: %s json_payload
+[2022-11-08 15:57:19,193] INFO in app: inference payload DataFrame: %s inference_payload
+[2022-11-08 15:57:19,194] INFO in app: inference payload DataFrame: %s inference_payload
+[2022-11-08 15:57:19,267] INFO in app: Scaling Payload: %s payload
+[2022-11-08 15:57:19,262] INFO in app: JSON payload: %s json_payload
+[2022-11-08 15:57:19,262] INFO in app: inference payload DataFrame: %s inference_payload
+[2022-11-08 15:57:19,269] INFO in app: Scaling Payload: %s payload
+[2022-11-08 15:57:19,265] INFO in app: inference payload DataFrame: %s inference_payload
+[2022-11-08 15:57:19,270] INFO in app: Scaling Payload: %s payload
+[2022-11-08 15:57:19,267] INFO in app: inference payload DataFrame: %s inference_payload
+[2022-11-08 15:57:19,267] INFO in app: Scaling Payload: %s payload
+[2022-11-08 15:57:19,198] INFO in app: inference payload DataFrame: %s inference_payload
+[2022-11-08 15:57:19,263] INFO in app: inference payload DataFrame: %s inference_payload
+[2022-11-08 15:57:19,266] INFO in app: inference payload DataFrame: %s inference_payload
+[2022-11-08 15:57:19,271] INFO in app: inference payload DataFrame: %s inference_payload
+[2022-11-08 15:57:19,271] INFO in app: Scaling Payload: %s payload
+[2022-11-08 15:57:19,272] INFO in app: Scaling Payload: %s payload
+[2022-11-08 15:57:19,273] INFO in app: Scaling Payload: %s payload
+[2022-11-08 15:57:19,273] INFO in app: Scaling Payload: %s payload
+[2022-11-08 15:57:19,273] INFO in app: Scaling Payload: %s payload
+/home/ajay/miniconda3/lib/python3.7/site-packages/sklearn/preprocessing/data.py:645: DataConversionWarning: Data with input dtype int64, float64 were all converted to float64 by StandardScaler.
+  return self.partial_fit(X, y)
+/home/ajay/miniconda3/lib/python3.7/site-packages/sklearn/preprocessing/data.py:645: DataConversionWarning: Data with input dtype int64, float64 were all converted to float64 by StandardScaler.
+  return self.partial_fit(X, y)
+/home/ajay/miniconda3/lib/python3.7/site-packages/sklearn/preprocessing/data.py:645: DataConversionWarning: Data with input dtype int64, float64 were all converted to float64 by StandardScaler.
+  return self.partial_fit(X, y)
+/home/ajay/miniconda3/lib/python3.7/site-packages/sklearn/preprocessing/data.py:645: DataConversionWarning: Data with input dtype int64, float64 were all converted to float64 by StandardScaler.
+  return self.partial_fit(X, y)
+/home/ajay/miniconda3/lib/python3.7/site-packages/sklearn/preprocessing/data.py:645: DataConversionWarning: Data with input dtype int64, float64 were all converted to float64 by StandardScaler.
+  return self.partial_fit(X, y)
+/home/ajay/miniconda3/lib/python3.7/site-packages/sklearn/preprocessing/data.py:645: DataConversionWarning: Data with input dtype int64, float64 were all converted to float64 by StandardScaler.
+  return self.partial_fit(X, y)
+/home/ajay/miniconda3/lib/python3.7/site-packages/sklearn/preprocessing/data.py:645: DataConversionWarning: Data with input dtype int64, float64 were all converted to float64 by StandardScaler.
+  return self.partial_fit(X, y)
+/home/ajay/miniconda3/lib/python3.7/site-packages/sklearn/preprocessing/data.py:645: DataConversionWarning: Data with input dtype int64, float64 were all converted to float64 by StandardScaler.
+  return self.partial_fit(X, y)
+/home/ajay/miniconda3/lib/python3.7/site-packages/sklearn/preprocessing/data.py:645: DataConversionWarning: Data with input dtype int64, float64 were all converted to float64 by StandardScaler.
+  return self.partial_fit(X, y)
+127.0.0.1 - - [08/Nov/2022 15:57:19] "POST /predict HTTP/1.1" 200 -
+/home/ajay/azure-ci-cd/app.py:18: DataConversionWarning: Data with input dtype int64, float64 were all converted to float64 by StandardScaler.
+  scaled_adhoc_predict = scaler.transform(payload)
+/home/ajay/azure-ci-cd/app.py:18: DataConversionWarning: Data with input dtype int64, float64 were all converted to float64 by StandardScaler.
+  scaled_adhoc_predict = scaler.transform(payload)
+/home/ajay/azure-ci-cd/app.py:18: DataConversionWarning: Data with input dtype int64, float64 were all converted to float64 by StandardScaler.
+  scaled_adhoc_predict = scaler.transform(payload)
+/home/ajay/miniconda3/lib/python3.7/site-packages/sklearn/preprocessing/data.py:645: DataConversionWarning: Data with input dtype int64, float64 were all converted to float64 by StandardScaler.
+  return self.partial_fit(X, y)
+/home/ajay/azure-ci-cd/app.py:18: DataConversionWarning: Data with input dtype int64, float64 were all converted to float64 by StandardScaler.
+  scaled_adhoc_predict = scaler.transform(payload)
+/home/ajay/azure-ci-cd/app.py:18: DataConversionWarning: Data with input dtype int64, float64 were all converted to float64 by StandardScaler.
+  scaled_adhoc_predict = scaler.transform(payload)
+/home/ajay/azure-ci-cd/app.py:18: DataConversionWarning: Data with input dtype int64, float64 were all converted to float64 by StandardScaler.
+  scaled_adhoc_predict = scaler.transform(payload)
+127.0.0.1 - - [08/Nov/2022 15:57:19] "POST /predict HTTP/1.1" 200 -
+/home/ajay/azure-ci-cd/app.py:18: DataConversionWarning: Data with input dtype int64, float64 were all converted to float64 by StandardScaler.
+  scaled_adhoc_predict = scaler.transform(payload)
+127.0.0.1 - - [08/Nov/2022 15:57:19] "POST /predict HTTP/1.1" 200 -
+/home/ajay/azure-ci-cd/app.py:18: DataConversionWarning: Data with input dtype int64, float64 were all converted to float64 by StandardScaler.
+  scaled_adhoc_predict = scaler.transform(payload)
+/home/ajay/azure-ci-cd/app.py:18: DataConversionWarning: Data with input dtype int64, float64 were all converted to float64 by StandardScaler.
+  scaled_adhoc_predict = scaler.transform(payload)
+127.0.0.1 - - [08/Nov/2022 15:57:19] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [08/Nov/2022 15:57:19] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [08/Nov/2022 15:57:19] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [08/Nov/2022 15:57:19] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [08/Nov/2022 15:57:19] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [08/Nov/2022 15:57:19] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [08/Nov/2022 15:57:19] "POST /predict HTTP/1.1" 200 -

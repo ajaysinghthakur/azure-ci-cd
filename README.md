@@ -153,9 +153,11 @@ Once the flask webapp is deployed in azure app service now we can configure the 
 
 Your can read in detail about the steps in [this article](https://learn.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl)
 
-Screenshot of running pipeline
+Screenshot of pipeline stages flow
 ![azure pipeline](./images/azurepipeline.png)
 
+Screenshot of a successful run of the project in Azure Pipelines
+![azure pipeline deployment](./images/pipelinedeployment.png)
 **3. Logs**.  
 
 logs of the running application.  
@@ -171,13 +173,17 @@ Screenshot of logs
 
 Modify the Makefile and add `pip install locust` and `pip install locust-plugins` inside install tag, the run the commnad.  
 
+Run locally
 ```
-locust -f locustfile.py --headless -u 10 -r 1 -H http://127.0.0.1:5000 -t 50s --check-fail-ratio 0.08 --only-summary
+locust -f locustfile.py
 ```
 
 Screenshot to show the result of load testing
 
-![load test](./images/loadtesting.png)
+![locust ui](./images/locustsetup.png)
+![locust result](./images/locustlogs.png)
+
+
 
 ## Enhancements
 1. Adding better test cases in continouse integration flow.

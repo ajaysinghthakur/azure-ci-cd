@@ -1,3 +1,4 @@
+![Github Actions Build Status](https://github.com/ajaysinghthakur/azure-ci-cd/actions/workflows/main.yml/badge.svg)
 ## Overview
 
 In this project, I have build a Github repository from scratch and created a scaffolding that assisted in performing both Continuous Integration and Continuous Delivery. I have used Github Actions along with a Makefile, requirements.txt and application code to perform an initial lint, test, and install cycle and integrated this project with Azure Pipelines to enable Continuous Delivery to Azure App Service.
@@ -168,6 +169,15 @@ Screenshot of logs
 
 **3. Load Testing**.
 
+Modify the Makefile and add `pip install locust` and `pip install locust-plugins` inside install tag, the run the commnad.  
+
+```
+locust -f locustfile.py --headless -u 10 -r 1 -H http://127.0.0.1:5000 -t 50s --check-fail-ratio 0.08 --only-summary
+```
+
+Screenshot to show the result of load testing
+
+![load test](./images/loadtesting.png)
 
 ## Enhancements
 1. Adding better test cases in continouse integration flow.
@@ -177,6 +187,6 @@ Screenshot of logs
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
+Demo in youtube [link](https://youtu.be/sty6hbPIPt8)
 
 
